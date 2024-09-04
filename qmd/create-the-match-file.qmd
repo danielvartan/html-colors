@@ -24,7 +24,7 @@ library(stringr, quietly = TRUE)
 ```{r}
 ## The keyword separator (e.g., `::` + `red`)
 
-sep <- "::"
+sep <- "##"
 ```
 
 ## Importing data
@@ -58,7 +58,8 @@ data <- jsonlite::read_json(raw_data, simplifyVector = TRUE)
 ## Data munging
 
 ```{r}
-data <- data |>
+data <- 
+  data |>
   dplyr::as_tibble() |>
   dplyr::mutate(
     name = stringr::str_to_lower(name),
@@ -97,21 +98,12 @@ for (i in seq_len(nrow(data))) {
       paste0('  - trigger: "', sep, data$name[i], '"'),
       '    force_clipboard: true',
       paste0('    replace: "', data$hex[i], '"'),
-      '    vars:',
-      '      - name: "clipboard"',
-      '        type: "clipboard"',
       paste0('  - trigger: "', sep, "rgb-", data$name[i], '"'),
       '    force_clipboard: true',
       paste0('    replace: "', data$rgb[i], '"'),
-      '    vars:',
-      '      - name: "clipboard"',
-      '        type: "clipboard"',
       paste0('  - trigger: "', sep, "families-", data$name[i], '"'),
       '    force_clipboard: true',
-      paste0('    replace: "', data$families [i], '"'),
-      '    vars:',
-      '      - name: "clipboard"',
-      '        type: "clipboard"'
+      paste0('    replace: "', data$families [i], '"')
     ),
     file = file,
     sep = "\n",

@@ -1,2521 +1,1261 @@
 matches:
-  - trigger: "::indianred"
+  - trigger: "##indianred"
     force_clipboard: true
     replace: "#CD5C5C"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-indianred"
+  - trigger: "##rgb-indianred"
     force_clipboard: true
     replace: "205, 92, 92"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-indianred"
+  - trigger: "##families-indianred"
     force_clipboard: true
     replace: "red, brown"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightcoral"
+  - trigger: "##lightcoral"
     force_clipboard: true
     replace: "#F08080"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightcoral"
+  - trigger: "##rgb-lightcoral"
     force_clipboard: true
     replace: "240, 128, 128"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightcoral"
+  - trigger: "##families-lightcoral"
     force_clipboard: true
     replace: "red, pink, coral, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::salmon"
+  - trigger: "##salmon"
     force_clipboard: true
     replace: "#FA8072"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-salmon"
+  - trigger: "##rgb-salmon"
     force_clipboard: true
     replace: "250, 128, 114"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-salmon"
+  - trigger: "##families-salmon"
     force_clipboard: true
     replace: "red, pink, orange, salmon"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darksalmon"
+  - trigger: "##darksalmon"
     force_clipboard: true
     replace: "#E9967A"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darksalmon"
+  - trigger: "##rgb-darksalmon"
     force_clipboard: true
     replace: "233, 150, 122"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darksalmon"
+  - trigger: "##families-darksalmon"
     force_clipboard: true
     replace: "red, pink, orange, salmon, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightsalmon"
+  - trigger: "##lightsalmon"
     force_clipboard: true
     replace: "#FFA07A"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightsalmon"
+  - trigger: "##rgb-lightsalmon"
     force_clipboard: true
     replace: "255, 160, 122"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightsalmon"
+  - trigger: "##families-lightsalmon"
     force_clipboard: true
     replace: "red, pink, orange, salmon, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::crimson"
+  - trigger: "##crimson"
     force_clipboard: true
     replace: "#DC143C"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-crimson"
+  - trigger: "##rgb-crimson"
     force_clipboard: true
     replace: "220, 20, 60"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-crimson"
+  - trigger: "##families-crimson"
     force_clipboard: true
     replace: "red"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::red"
+  - trigger: "##red"
     force_clipboard: true
     replace: "#FF0000"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-red"
+  - trigger: "##rgb-red"
     force_clipboard: true
     replace: "255, 0, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-red"
+  - trigger: "##families-red"
     force_clipboard: true
     replace: "red"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkred"
+  - trigger: "##darkred"
     force_clipboard: true
     replace: "#8B0000"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkred"
+  - trigger: "##rgb-darkred"
     force_clipboard: true
     replace: "139, 0, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkred"
+  - trigger: "##families-darkred"
     force_clipboard: true
     replace: "red, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::pink"
+  - trigger: "##pink"
     force_clipboard: true
     replace: "#FFC0CB"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-pink"
+  - trigger: "##rgb-pink"
     force_clipboard: true
     replace: "255, 192, 203"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-pink"
+  - trigger: "##families-pink"
     force_clipboard: true
     replace: "pink"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightpink"
+  - trigger: "##lightpink"
     force_clipboard: true
     replace: "#FFB6C1"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightpink"
+  - trigger: "##rgb-lightpink"
     force_clipboard: true
     replace: "255, 182, 193"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightpink"
+  - trigger: "##families-lightpink"
     force_clipboard: true
     replace: "pink, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::hotpink"
+  - trigger: "##hotpink"
     force_clipboard: true
     replace: "#FF69B4"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-hotpink"
+  - trigger: "##rgb-hotpink"
     force_clipboard: true
     replace: "255, 105, 180"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-hotpink"
+  - trigger: "##families-hotpink"
     force_clipboard: true
     replace: "pink, hot"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::deeppink"
+  - trigger: "##deeppink"
     force_clipboard: true
     replace: "#FF1493"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-deeppink"
+  - trigger: "##rgb-deeppink"
     force_clipboard: true
     replace: "255, 20, 147"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-deeppink"
+  - trigger: "##families-deeppink"
     force_clipboard: true
     replace: "pink, deep"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumvioletred"
+  - trigger: "##mediumvioletred"
     force_clipboard: true
     replace: "#C71585"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumvioletred"
+  - trigger: "##rgb-mediumvioletred"
     force_clipboard: true
     replace: "199, 21, 133"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumvioletred"
+  - trigger: "##families-mediumvioletred"
     force_clipboard: true
     replace: "pink, purple, violet, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::palevioletred"
+  - trigger: "##palevioletred"
     force_clipboard: true
     replace: "#DB7093"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-palevioletred"
+  - trigger: "##rgb-palevioletred"
     force_clipboard: true
     replace: "219, 112, 147"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-palevioletred"
+  - trigger: "##families-palevioletred"
     force_clipboard: true
     replace: "pink, pale, violet"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::coral"
+  - trigger: "##coral"
     force_clipboard: true
     replace: "#FF7F50"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-coral"
+  - trigger: "##rgb-coral"
     force_clipboard: true
     replace: "255, 127, 80"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-coral"
+  - trigger: "##families-coral"
     force_clipboard: true
     replace: "orange, coral"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::tomato"
+  - trigger: "##tomato"
     force_clipboard: true
     replace: "#FF6347"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-tomato"
+  - trigger: "##rgb-tomato"
     force_clipboard: true
     replace: "255, 99, 71"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-tomato"
+  - trigger: "##families-tomato"
     force_clipboard: true
     replace: "orange, red"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::orangered"
+  - trigger: "##orangered"
     force_clipboard: true
     replace: "#FF4500"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-orangered"
+  - trigger: "##rgb-orangered"
     force_clipboard: true
     replace: "255, 69, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-orangered"
+  - trigger: "##families-orangered"
     force_clipboard: true
     replace: "orange, red"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkorange"
+  - trigger: "##darkorange"
     force_clipboard: true
     replace: "#FF8C00"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkorange"
+  - trigger: "##rgb-darkorange"
     force_clipboard: true
     replace: "255, 140, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkorange"
+  - trigger: "##families-darkorange"
     force_clipboard: true
     replace: "orange, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::orange"
+  - trigger: "##orange"
     force_clipboard: true
     replace: "#FFA500"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-orange"
+  - trigger: "##rgb-orange"
     force_clipboard: true
     replace: "255, 165, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-orange"
+  - trigger: "##families-orange"
     force_clipboard: true
     replace: "orange"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::gold"
+  - trigger: "##gold"
     force_clipboard: true
     replace: "#FFD700"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-gold"
+  - trigger: "##rgb-gold"
     force_clipboard: true
     replace: "255, 215, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-gold"
+  - trigger: "##families-gold"
     force_clipboard: true
     replace: "yellow"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::yellow"
+  - trigger: "##yellow"
     force_clipboard: true
     replace: "#FFFF00"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-yellow"
+  - trigger: "##rgb-yellow"
     force_clipboard: true
     replace: "255, 255, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-yellow"
+  - trigger: "##families-yellow"
     force_clipboard: true
     replace: "yellow"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightyellow"
+  - trigger: "##lightyellow"
     force_clipboard: true
     replace: "#FFFFE0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightyellow"
+  - trigger: "##rgb-lightyellow"
     force_clipboard: true
     replace: "255, 255, 224"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightyellow"
+  - trigger: "##families-lightyellow"
     force_clipboard: true
     replace: "yellow, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lemonchiffon"
+  - trigger: "##lemonchiffon"
     force_clipboard: true
     replace: "#FFFACD"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lemonchiffon"
+  - trigger: "##rgb-lemonchiffon"
     force_clipboard: true
     replace: "255, 250, 205"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lemonchiffon"
+  - trigger: "##families-lemonchiffon"
     force_clipboard: true
     replace: "yellow, lemon"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightgoldenrodyellow"
+  - trigger: "##lightgoldenrodyellow"
     force_clipboard: true
     replace: "#FAFAD2"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightgoldenrodyellow"
+  - trigger: "##rgb-lightgoldenrodyellow"
     force_clipboard: true
     replace: "250, 250, 210"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightgoldenrodyellow"
+  - trigger: "##families-lightgoldenrodyellow"
     force_clipboard: true
     replace: "yellow, light, goldenrod, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::papayawhip"
+  - trigger: "##papayawhip"
     force_clipboard: true
     replace: "#FFEFD5"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-papayawhip"
+  - trigger: "##rgb-papayawhip"
     force_clipboard: true
     replace: "255, 239, 213"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-papayawhip"
+  - trigger: "##families-papayawhip"
     force_clipboard: true
     replace: "pink, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::moccasin"
+  - trigger: "##moccasin"
     force_clipboard: true
     replace: "#FFE4B5"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-moccasin"
+  - trigger: "##rgb-moccasin"
     force_clipboard: true
     replace: "255, 228, 181"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-moccasin"
+  - trigger: "##families-moccasin"
     force_clipboard: true
     replace: "pink, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::peachpuff"
+  - trigger: "##peachpuff"
     force_clipboard: true
     replace: "#FFDAB9"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-peachpuff"
+  - trigger: "##rgb-peachpuff"
     force_clipboard: true
     replace: "255, 218, 185"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-peachpuff"
+  - trigger: "##families-peachpuff"
     force_clipboard: true
     replace: "pink, orange, peach"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::palegoldenrod"
+  - trigger: "##palegoldenrod"
     force_clipboard: true
     replace: "#EEE8AA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-palegoldenrod"
+  - trigger: "##rgb-palegoldenrod"
     force_clipboard: true
     replace: "238, 232, 170"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-palegoldenrod"
+  - trigger: "##families-palegoldenrod"
     force_clipboard: true
     replace: "yellow, tan, pale, goldenrod"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::khaki"
+  - trigger: "##khaki"
     force_clipboard: true
     replace: "#F0E68C"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-khaki"
+  - trigger: "##rgb-khaki"
     force_clipboard: true
     replace: "240, 230, 140"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-khaki"
+  - trigger: "##families-khaki"
     force_clipboard: true
     replace: "yellow, tan, khaki"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkkhaki"
+  - trigger: "##darkkhaki"
     force_clipboard: true
     replace: "#BDB76B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkkhaki"
+  - trigger: "##rgb-darkkhaki"
     force_clipboard: true
     replace: "189, 183, 107"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkkhaki"
+  - trigger: "##families-darkkhaki"
     force_clipboard: true
     replace: "yellow, tan, khaki, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lavender"
+  - trigger: "##lavender"
     force_clipboard: true
     replace: "#E6E6FA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lavender"
+  - trigger: "##rgb-lavender"
     force_clipboard: true
     replace: "230, 230, 250"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lavender"
+  - trigger: "##families-lavender"
     force_clipboard: true
     replace: "purple"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::thistle"
+  - trigger: "##thistle"
     force_clipboard: true
     replace: "#D8BFD8"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-thistle"
+  - trigger: "##rgb-thistle"
     force_clipboard: true
     replace: "216, 191, 216"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-thistle"
+  - trigger: "##families-thistle"
     force_clipboard: true
     replace: "purple"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::plum"
+  - trigger: "##plum"
     force_clipboard: true
     replace: "#DDA0DD"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-plum"
+  - trigger: "##rgb-plum"
     force_clipboard: true
     replace: "221, 160, 221"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-plum"
+  - trigger: "##families-plum"
     force_clipboard: true
     replace: "purple"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::violet"
+  - trigger: "##violet"
     force_clipboard: true
     replace: "#EE82EE"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-violet"
+  - trigger: "##rgb-violet"
     force_clipboard: true
     replace: "238, 130, 238"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-violet"
+  - trigger: "##families-violet"
     force_clipboard: true
     replace: "purple, violet, pink"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::orchid"
+  - trigger: "##orchid"
     force_clipboard: true
     replace: "#DA70D6"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-orchid"
+  - trigger: "##rgb-orchid"
     force_clipboard: true
     replace: "218, 112, 214"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-orchid"
+  - trigger: "##families-orchid"
     force_clipboard: true
     replace: "purple, orchid"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::fuchsia"
+  - trigger: "##fuchsia"
     force_clipboard: true
     replace: "#FF00FF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-fuchsia"
+  - trigger: "##rgb-fuchsia"
     force_clipboard: true
     replace: "255, 0, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-fuchsia"
+  - trigger: "##families-fuchsia"
     force_clipboard: true
     replace: "purple, pink"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::magenta"
+  - trigger: "##magenta"
     force_clipboard: true
     replace: "#FF00FF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-magenta"
+  - trigger: "##rgb-magenta"
     force_clipboard: true
     replace: "255, 0, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-magenta"
+  - trigger: "##families-magenta"
     force_clipboard: true
     replace: "purple, pink, magenta"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumorchid"
+  - trigger: "##mediumorchid"
     force_clipboard: true
     replace: "#BA55D3"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumorchid"
+  - trigger: "##rgb-mediumorchid"
     force_clipboard: true
     replace: "186, 85, 211"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumorchid"
+  - trigger: "##families-mediumorchid"
     force_clipboard: true
     replace: "purple, orchid, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumpurple"
+  - trigger: "##mediumpurple"
     force_clipboard: true
     replace: "#9370DB"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumpurple"
+  - trigger: "##rgb-mediumpurple"
     force_clipboard: true
     replace: "147, 112, 219"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumpurple"
+  - trigger: "##families-mediumpurple"
     force_clipboard: true
     replace: "purple, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rebeccapurple"
+  - trigger: "##rebeccapurple"
     force_clipboard: true
     replace: "#663399"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-rebeccapurple"
+  - trigger: "##rgb-rebeccapurple"
     force_clipboard: true
     replace: "102, 51, 153"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-rebeccapurple"
+  - trigger: "##families-rebeccapurple"
     force_clipboard: true
     replace: "purple, blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::blueviolet"
+  - trigger: "##blueviolet"
     force_clipboard: true
     replace: "#8A2BE2"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-blueviolet"
+  - trigger: "##rgb-blueviolet"
     force_clipboard: true
     replace: "138, 43, 226"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-blueviolet"
+  - trigger: "##families-blueviolet"
     force_clipboard: true
     replace: "purple, blue, violet"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkviolet"
+  - trigger: "##darkviolet"
     force_clipboard: true
     replace: "#9400D3"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkviolet"
+  - trigger: "##rgb-darkviolet"
     force_clipboard: true
     replace: "148, 0, 211"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkviolet"
+  - trigger: "##families-darkviolet"
     force_clipboard: true
     replace: "purple, dark, violet"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkorchid"
+  - trigger: "##darkorchid"
     force_clipboard: true
     replace: "#9932CC"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkorchid"
+  - trigger: "##rgb-darkorchid"
     force_clipboard: true
     replace: "153, 50, 204"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkorchid"
+  - trigger: "##families-darkorchid"
     force_clipboard: true
     replace: "purple, dark, orchid"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkmagenta"
+  - trigger: "##darkmagenta"
     force_clipboard: true
     replace: "#8B008B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkmagenta"
+  - trigger: "##rgb-darkmagenta"
     force_clipboard: true
     replace: "139, 0, 139"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkmagenta"
+  - trigger: "##families-darkmagenta"
     force_clipboard: true
     replace: "purple, dark, magenta"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::purple"
+  - trigger: "##purple"
     force_clipboard: true
     replace: "#800080"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-purple"
+  - trigger: "##rgb-purple"
     force_clipboard: true
     replace: "128, 0, 128"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-purple"
+  - trigger: "##families-purple"
     force_clipboard: true
     replace: "purple"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::indigo"
+  - trigger: "##indigo"
     force_clipboard: true
     replace: "#4B0082"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-indigo"
+  - trigger: "##rgb-indigo"
     force_clipboard: true
     replace: "75, 0, 130"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-indigo"
+  - trigger: "##families-indigo"
     force_clipboard: true
     replace: "purple, blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::slateblue"
+  - trigger: "##slateblue"
     force_clipboard: true
     replace: "#6A5ACD"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-slateblue"
+  - trigger: "##rgb-slateblue"
     force_clipboard: true
     replace: "106, 90, 205"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-slateblue"
+  - trigger: "##families-slateblue"
     force_clipboard: true
     replace: "purple, blue, slate"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkslateblue"
+  - trigger: "##darkslateblue"
     force_clipboard: true
     replace: "#483D8B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkslateblue"
+  - trigger: "##rgb-darkslateblue"
     force_clipboard: true
     replace: "72, 61, 139"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkslateblue"
+  - trigger: "##families-darkslateblue"
     force_clipboard: true
     replace: "purple, blue, slate, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumslateblue"
+  - trigger: "##mediumslateblue"
     force_clipboard: true
     replace: "#7B68EE"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumslateblue"
+  - trigger: "##rgb-mediumslateblue"
     force_clipboard: true
     replace: "123, 104, 238"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumslateblue"
+  - trigger: "##families-mediumslateblue"
     force_clipboard: true
     replace: "purple, blue, slate, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::greenyellow"
+  - trigger: "##greenyellow"
     force_clipboard: true
     replace: "#ADFF2F"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-greenyellow"
+  - trigger: "##rgb-greenyellow"
     force_clipboard: true
     replace: "173, 255, 47"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-greenyellow"
+  - trigger: "##families-greenyellow"
     force_clipboard: true
     replace: "green, yellow"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::chartreuse"
+  - trigger: "##chartreuse"
     force_clipboard: true
     replace: "#7FFF00"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-chartreuse"
+  - trigger: "##rgb-chartreuse"
     force_clipboard: true
     replace: "127, 255, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-chartreuse"
+  - trigger: "##families-chartreuse"
     force_clipboard: true
     replace: "green"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lawngreen"
+  - trigger: "##lawngreen"
     force_clipboard: true
     replace: "#7CFC00"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lawngreen"
+  - trigger: "##rgb-lawngreen"
     force_clipboard: true
     replace: "124, 252, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lawngreen"
+  - trigger: "##families-lawngreen"
     force_clipboard: true
     replace: "green"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lime"
+  - trigger: "##lime"
     force_clipboard: true
     replace: "#00FF00"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lime"
+  - trigger: "##rgb-lime"
     force_clipboard: true
     replace: "0, 255, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lime"
+  - trigger: "##families-lime"
     force_clipboard: true
     replace: "green"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::limegreen"
+  - trigger: "##limegreen"
     force_clipboard: true
     replace: "#32CD32"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-limegreen"
+  - trigger: "##rgb-limegreen"
     force_clipboard: true
     replace: "50, 205, 50"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-limegreen"
+  - trigger: "##families-limegreen"
     force_clipboard: true
     replace: "green"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::palegreen"
+  - trigger: "##palegreen"
     force_clipboard: true
     replace: "#98FB98"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-palegreen"
+  - trigger: "##rgb-palegreen"
     force_clipboard: true
     replace: "152, 251, 152"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-palegreen"
+  - trigger: "##families-palegreen"
     force_clipboard: true
     replace: "green, pale"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightgreen"
+  - trigger: "##lightgreen"
     force_clipboard: true
     replace: "#90EE90"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightgreen"
+  - trigger: "##rgb-lightgreen"
     force_clipboard: true
     replace: "144, 238, 144"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightgreen"
+  - trigger: "##families-lightgreen"
     force_clipboard: true
     replace: "green, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumspringgreen"
+  - trigger: "##mediumspringgreen"
     force_clipboard: true
     replace: "#00FA9A"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumspringgreen"
+  - trigger: "##rgb-mediumspringgreen"
     force_clipboard: true
     replace: "0, 250, 154"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumspringgreen"
+  - trigger: "##families-mediumspringgreen"
     force_clipboard: true
     replace: "green, medium, spring"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::springgreen"
+  - trigger: "##springgreen"
     force_clipboard: true
     replace: "#00FF7F"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-springgreen"
+  - trigger: "##rgb-springgreen"
     force_clipboard: true
     replace: "0, 255, 127"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-springgreen"
+  - trigger: "##families-springgreen"
     force_clipboard: true
     replace: "green, spring"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumseagreen"
+  - trigger: "##mediumseagreen"
     force_clipboard: true
     replace: "#3CB371"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumseagreen"
+  - trigger: "##rgb-mediumseagreen"
     force_clipboard: true
     replace: "60, 179, 113"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumseagreen"
+  - trigger: "##families-mediumseagreen"
     force_clipboard: true
     replace: "green, sea, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::seagreen"
+  - trigger: "##seagreen"
     force_clipboard: true
     replace: "#2E8B57"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-seagreen"
+  - trigger: "##rgb-seagreen"
     force_clipboard: true
     replace: "46, 139, 87"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-seagreen"
+  - trigger: "##families-seagreen"
     force_clipboard: true
     replace: "green, sea"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::forestgreen"
+  - trigger: "##forestgreen"
     force_clipboard: true
     replace: "#228B22"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-forestgreen"
+  - trigger: "##rgb-forestgreen"
     force_clipboard: true
     replace: "34, 139, 34"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-forestgreen"
+  - trigger: "##families-forestgreen"
     force_clipboard: true
     replace: "green, forest"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::green"
+  - trigger: "##green"
     force_clipboard: true
     replace: "#008000"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-green"
+  - trigger: "##rgb-green"
     force_clipboard: true
     replace: "0, 128, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-green"
+  - trigger: "##families-green"
     force_clipboard: true
     replace: "green"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkgreen"
+  - trigger: "##darkgreen"
     force_clipboard: true
     replace: "#006400"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkgreen"
+  - trigger: "##rgb-darkgreen"
     force_clipboard: true
     replace: "0, 100, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkgreen"
+  - trigger: "##families-darkgreen"
     force_clipboard: true
     replace: "green, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::yellowgreen"
+  - trigger: "##yellowgreen"
     force_clipboard: true
     replace: "#9ACD32"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-yellowgreen"
+  - trigger: "##rgb-yellowgreen"
     force_clipboard: true
     replace: "154, 205, 50"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-yellowgreen"
+  - trigger: "##families-yellowgreen"
     force_clipboard: true
     replace: "green, yellow"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::olivedrab"
+  - trigger: "##olivedrab"
     force_clipboard: true
     replace: "#6B8E23"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-olivedrab"
+  - trigger: "##rgb-olivedrab"
     force_clipboard: true
     replace: "107, 142, 35"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-olivedrab"
+  - trigger: "##families-olivedrab"
     force_clipboard: true
     replace: "green, olive"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::olive"
+  - trigger: "##olive"
     force_clipboard: true
     replace: "#6B8E23"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-olive"
+  - trigger: "##rgb-olive"
     force_clipboard: true
     replace: "128, 128, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-olive"
+  - trigger: "##families-olive"
     force_clipboard: true
     replace: "green, olive"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkolivegreen"
+  - trigger: "##darkolivegreen"
     force_clipboard: true
     replace: "#556B2F"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkolivegreen"
+  - trigger: "##rgb-darkolivegreen"
     force_clipboard: true
     replace: "85, 107, 47"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkolivegreen"
+  - trigger: "##families-darkolivegreen"
     force_clipboard: true
     replace: "green, olive, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumaquamarine"
+  - trigger: "##mediumaquamarine"
     force_clipboard: true
     replace: "#66CDAA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumaquamarine"
+  - trigger: "##rgb-mediumaquamarine"
     force_clipboard: true
     replace: "102, 205, 170"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumaquamarine"
+  - trigger: "##families-mediumaquamarine"
     force_clipboard: true
     replace: "green, blue, aquamarine, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkseagreen"
+  - trigger: "##darkseagreen"
     force_clipboard: true
     replace: "#8FBC8B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkseagreen"
+  - trigger: "##rgb-darkseagreen"
     force_clipboard: true
     replace: "143, 188, 139"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkseagreen"
+  - trigger: "##families-darkseagreen"
     force_clipboard: true
     replace: "green, sea, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightseagreen"
+  - trigger: "##lightseagreen"
     force_clipboard: true
     replace: "#20B2AA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightseagreen"
+  - trigger: "##rgb-lightseagreen"
     force_clipboard: true
     replace: "32, 178, 170"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightseagreen"
+  - trigger: "##families-lightseagreen"
     force_clipboard: true
     replace: "green, blue, sea, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkcyan"
+  - trigger: "##darkcyan"
     force_clipboard: true
     replace: "#008B8B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkcyan"
+  - trigger: "##rgb-darkcyan"
     force_clipboard: true
     replace: "0, 139, 139"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkcyan"
+  - trigger: "##families-darkcyan"
     force_clipboard: true
     replace: "green, blue, cyan, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::teal"
+  - trigger: "##teal"
     force_clipboard: true
     replace: "#008080"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-teal"
+  - trigger: "##rgb-teal"
     force_clipboard: true
     replace: "0, 128, 128"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-teal"
+  - trigger: "##families-teal"
     force_clipboard: true
     replace: "green, blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::aqua"
+  - trigger: "##aqua"
     force_clipboard: true
     replace: "#00FFFF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-aqua"
+  - trigger: "##rgb-aqua"
     force_clipboard: true
     replace: "0, 255, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-aqua"
+  - trigger: "##families-aqua"
     force_clipboard: true
     replace: "blue, aqua"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::cyan"
+  - trigger: "##cyan"
     force_clipboard: true
     replace: "#00FFFF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-cyan"
+  - trigger: "##rgb-cyan"
     force_clipboard: true
     replace: "0, 255, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-cyan"
+  - trigger: "##families-cyan"
     force_clipboard: true
     replace: "blue, cyan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightcyan"
+  - trigger: "##lightcyan"
     force_clipboard: true
     replace: "#E0FFFF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightcyan"
+  - trigger: "##rgb-lightcyan"
     force_clipboard: true
     replace: "224, 255, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightcyan"
+  - trigger: "##families-lightcyan"
     force_clipboard: true
     replace: "blue, cyan, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::paleturquoise"
+  - trigger: "##paleturquoise"
     force_clipboard: true
     replace: "#AFEEEE"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-paleturquoise"
+  - trigger: "##rgb-paleturquoise"
     force_clipboard: true
     replace: "175, 238, 238"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-paleturquoise"
+  - trigger: "##families-paleturquoise"
     force_clipboard: true
     replace: "blue, turquoise, pale"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::aquamarine"
+  - trigger: "##aquamarine"
     force_clipboard: true
     replace: "#7FFFD4"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-aquamarine"
+  - trigger: "##rgb-aquamarine"
     force_clipboard: true
     replace: "127, 255, 212"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-aquamarine"
+  - trigger: "##families-aquamarine"
     force_clipboard: true
     replace: "blue, aquamarine"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::turquoise"
+  - trigger: "##turquoise"
     force_clipboard: true
     replace: "#40E0D0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-turquoise"
+  - trigger: "##rgb-turquoise"
     force_clipboard: true
     replace: "64, 224, 208"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-turquoise"
+  - trigger: "##families-turquoise"
     force_clipboard: true
     replace: "blue, turquoise"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumturquoise"
+  - trigger: "##mediumturquoise"
     force_clipboard: true
     replace: "#48D1CC"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumturquoise"
+  - trigger: "##rgb-mediumturquoise"
     force_clipboard: true
     replace: "72, 209, 204"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumturquoise"
+  - trigger: "##families-mediumturquoise"
     force_clipboard: true
     replace: "blue, turquoise, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkturquoise"
+  - trigger: "##darkturquoise"
     force_clipboard: true
     replace: "#00CED1"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkturquoise"
+  - trigger: "##rgb-darkturquoise"
     force_clipboard: true
     replace: "0, 206, 209"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkturquoise"
+  - trigger: "##families-darkturquoise"
     force_clipboard: true
     replace: "blue, turquoise, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::cadetblue"
+  - trigger: "##cadetblue"
     force_clipboard: true
     replace: "#5F9EA0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-cadetblue"
+  - trigger: "##rgb-cadetblue"
     force_clipboard: true
     replace: "95, 158, 160"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-cadetblue"
+  - trigger: "##families-cadetblue"
     force_clipboard: true
     replace: "blue, gray"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::steelblue"
+  - trigger: "##steelblue"
     force_clipboard: true
     replace: "#4682B4"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-steelblue"
+  - trigger: "##rgb-steelblue"
     force_clipboard: true
     replace: "70, 130, 180"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-steelblue"
+  - trigger: "##families-steelblue"
     force_clipboard: true
     replace: "blue, steel"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightsteelblue"
+  - trigger: "##lightsteelblue"
     force_clipboard: true
     replace: "#B0C4DE"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightsteelblue"
+  - trigger: "##rgb-lightsteelblue"
     force_clipboard: true
     replace: "176, 196, 222"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightsteelblue"
+  - trigger: "##families-lightsteelblue"
     force_clipboard: true
     replace: "blue, steel, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::powderblue"
+  - trigger: "##powderblue"
     force_clipboard: true
     replace: "#B0E0E6"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-powderblue"
+  - trigger: "##rgb-powderblue"
     force_clipboard: true
     replace: "176, 224, 230"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-powderblue"
+  - trigger: "##families-powderblue"
     force_clipboard: true
     replace: "blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightblue"
+  - trigger: "##lightblue"
     force_clipboard: true
     replace: "#ADD8E6"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightblue"
+  - trigger: "##rgb-lightblue"
     force_clipboard: true
     replace: "173, 216, 230"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightblue"
+  - trigger: "##families-lightblue"
     force_clipboard: true
     replace: "blue, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::skyblue"
+  - trigger: "##skyblue"
     force_clipboard: true
     replace: "#87CEEB"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-skyblue"
+  - trigger: "##rgb-skyblue"
     force_clipboard: true
     replace: "135, 206, 235"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-skyblue"
+  - trigger: "##families-skyblue"
     force_clipboard: true
     replace: "blue, sky"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightskyblue"
+  - trigger: "##lightskyblue"
     force_clipboard: true
     replace: "#87CEFA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightskyblue"
+  - trigger: "##rgb-lightskyblue"
     force_clipboard: true
     replace: "135, 206, 250"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightskyblue"
+  - trigger: "##families-lightskyblue"
     force_clipboard: true
     replace: "blue, sky, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::deepskyblue"
+  - trigger: "##deepskyblue"
     force_clipboard: true
     replace: "#00BFFF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-deepskyblue"
+  - trigger: "##rgb-deepskyblue"
     force_clipboard: true
     replace: "0, 191, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-deepskyblue"
+  - trigger: "##families-deepskyblue"
     force_clipboard: true
     replace: "blue, sky, deep"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::dodgerblue"
+  - trigger: "##dodgerblue"
     force_clipboard: true
     replace: "#1E90FF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-dodgerblue"
+  - trigger: "##rgb-dodgerblue"
     force_clipboard: true
     replace: "30, 144, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-dodgerblue"
+  - trigger: "##families-dodgerblue"
     force_clipboard: true
     replace: "blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::cornflowerblue"
+  - trigger: "##cornflowerblue"
     force_clipboard: true
     replace: "#6495ED"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-cornflowerblue"
+  - trigger: "##rgb-cornflowerblue"
     force_clipboard: true
     replace: "100, 149, 237"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-cornflowerblue"
+  - trigger: "##families-cornflowerblue"
     force_clipboard: true
     replace: "blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::royalblue"
+  - trigger: "##royalblue"
     force_clipboard: true
     replace: "#4169E1"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-royalblue"
+  - trigger: "##rgb-royalblue"
     force_clipboard: true
     replace: "65, 105, 225"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-royalblue"
+  - trigger: "##families-royalblue"
     force_clipboard: true
     replace: "blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::blue"
+  - trigger: "##blue"
     force_clipboard: true
     replace: "#0000FF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-blue"
+  - trigger: "##rgb-blue"
     force_clipboard: true
     replace: "0, 0, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-blue"
+  - trigger: "##families-blue"
     force_clipboard: true
     replace: "blue"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mediumblue"
+  - trigger: "##mediumblue"
     force_clipboard: true
     replace: "#0000CD"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mediumblue"
+  - trigger: "##rgb-mediumblue"
     force_clipboard: true
     replace: "0, 0, 205"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mediumblue"
+  - trigger: "##families-mediumblue"
     force_clipboard: true
     replace: "blue, medium"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkblue"
+  - trigger: "##darkblue"
     force_clipboard: true
     replace: "#00008B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkblue"
+  - trigger: "##rgb-darkblue"
     force_clipboard: true
     replace: "0, 0, 139"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkblue"
+  - trigger: "##families-darkblue"
     force_clipboard: true
     replace: "blue, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::navy"
+  - trigger: "##navy"
     force_clipboard: true
     replace: "#00008B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-navy"
+  - trigger: "##rgb-navy"
     force_clipboard: true
     replace: "0, 0, 128"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-navy"
+  - trigger: "##families-navy"
     force_clipboard: true
     replace: "blue, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::midnightblue"
+  - trigger: "##midnightblue"
     force_clipboard: true
     replace: "#191970"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-midnightblue"
+  - trigger: "##rgb-midnightblue"
     force_clipboard: true
     replace: "25, 25, 112"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-midnightblue"
+  - trigger: "##families-midnightblue"
     force_clipboard: true
     replace: "blue, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::cornsilk"
+  - trigger: "##cornsilk"
     force_clipboard: true
     replace: "#FFF8DC"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-cornsilk"
+  - trigger: "##rgb-cornsilk"
     force_clipboard: true
     replace: "255, 248, 220"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-cornsilk"
+  - trigger: "##families-cornsilk"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::blanchedalmond"
+  - trigger: "##blanchedalmond"
     force_clipboard: true
     replace: "#FFEBCD"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-blanchedalmond"
+  - trigger: "##rgb-blanchedalmond"
     force_clipboard: true
     replace: "255, 235, 205"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-blanchedalmond"
+  - trigger: "##families-blanchedalmond"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::bisque"
+  - trigger: "##bisque"
     force_clipboard: true
     replace: "#FFE4C4"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-bisque"
+  - trigger: "##rgb-bisque"
     force_clipboard: true
     replace: "255, 228, 196"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-bisque"
+  - trigger: "##families-bisque"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::navajowhite"
+  - trigger: "##navajowhite"
     force_clipboard: true
     replace: "#FFDEAD"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-navajowhite"
+  - trigger: "##rgb-navajowhite"
     force_clipboard: true
     replace: "255, 222, 173"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-navajowhite"
+  - trigger: "##families-navajowhite"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::wheat"
+  - trigger: "##wheat"
     force_clipboard: true
     replace: "#F5DEB3"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-wheat"
+  - trigger: "##rgb-wheat"
     force_clipboard: true
     replace: "245, 222, 179"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-wheat"
+  - trigger: "##families-wheat"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::burlywood"
+  - trigger: "##burlywood"
     force_clipboard: true
     replace: "#DEB887"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-burlywood"
+  - trigger: "##rgb-burlywood"
     force_clipboard: true
     replace: "222, 184, 135"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-burlywood"
+  - trigger: "##families-burlywood"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::tan"
+  - trigger: "##tan"
     force_clipboard: true
     replace: "#D2B48C"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-tan"
+  - trigger: "##rgb-tan"
     force_clipboard: true
     replace: "210, 180, 140"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-tan"
+  - trigger: "##families-tan"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rosybrown"
+  - trigger: "##rosybrown"
     force_clipboard: true
     replace: "#BC8F8F"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-rosybrown"
+  - trigger: "##rgb-rosybrown"
     force_clipboard: true
     replace: "188, 143, 143"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-rosybrown"
+  - trigger: "##families-rosybrown"
     force_clipboard: true
     replace: "brown, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::sandybrown"
+  - trigger: "##sandybrown"
     force_clipboard: true
     replace: "#F4A460"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-sandybrown"
+  - trigger: "##rgb-sandybrown"
     force_clipboard: true
     replace: "244, 164, 96"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-sandybrown"
+  - trigger: "##families-sandybrown"
     force_clipboard: true
     replace: "brown, orange"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::goldenrod"
+  - trigger: "##goldenrod"
     force_clipboard: true
     replace: "#DAA520"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-goldenrod"
+  - trigger: "##rgb-goldenrod"
     force_clipboard: true
     replace: "218, 165, 32"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-goldenrod"
+  - trigger: "##families-goldenrod"
     force_clipboard: true
     replace: "brown, goldenrod, orange"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkgoldenrod"
+  - trigger: "##darkgoldenrod"
     force_clipboard: true
     replace: "#B8860B"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkgoldenrod"
+  - trigger: "##rgb-darkgoldenrod"
     force_clipboard: true
     replace: "184, 134, 11"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkgoldenrod"
+  - trigger: "##families-darkgoldenrod"
     force_clipboard: true
     replace: "brown, orange, goldenrod, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::peru"
+  - trigger: "##peru"
     force_clipboard: true
     replace: "#CD853F"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-peru"
+  - trigger: "##rgb-peru"
     force_clipboard: true
     replace: "205, 133, 63"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-peru"
+  - trigger: "##families-peru"
     force_clipboard: true
     replace: "brown, orange"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::chocolate"
+  - trigger: "##chocolate"
     force_clipboard: true
     replace: "#D2691E"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-chocolate"
+  - trigger: "##rgb-chocolate"
     force_clipboard: true
     replace: "210, 105, 30"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-chocolate"
+  - trigger: "##families-chocolate"
     force_clipboard: true
     replace: "brown, orange"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::saddlebrown"
+  - trigger: "##saddlebrown"
     force_clipboard: true
     replace: "#8B4513"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-saddlebrown"
+  - trigger: "##rgb-saddlebrown"
     force_clipboard: true
     replace: "139, 69, 19"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-saddlebrown"
+  - trigger: "##families-saddlebrown"
     force_clipboard: true
     replace: "brown"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::sienna"
+  - trigger: "##sienna"
     force_clipboard: true
     replace: "#A0522D"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-sienna"
+  - trigger: "##rgb-sienna"
     force_clipboard: true
     replace: "160, 82, 45"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-sienna"
+  - trigger: "##families-sienna"
     force_clipboard: true
     replace: "brown"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::brown"
+  - trigger: "##brown"
     force_clipboard: true
     replace: "#A52A2A"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-brown"
+  - trigger: "##rgb-brown"
     force_clipboard: true
     replace: "165, 42, 42"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-brown"
+  - trigger: "##families-brown"
     force_clipboard: true
     replace: "brown, red"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::maroon"
+  - trigger: "##maroon"
     force_clipboard: true
     replace: "#800000"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-maroon"
+  - trigger: "##rgb-maroon"
     force_clipboard: true
     replace: "128, 0, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-maroon"
+  - trigger: "##families-maroon"
     force_clipboard: true
     replace: "brown, red"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::white"
+  - trigger: "##white"
     force_clipboard: true
     replace: "#FFFFFF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-white"
+  - trigger: "##rgb-white"
     force_clipboard: true
     replace: "255, 255, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-white"
+  - trigger: "##families-white"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::snow"
+  - trigger: "##snow"
     force_clipboard: true
     replace: "#FFFAFA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-snow"
+  - trigger: "##rgb-snow"
     force_clipboard: true
     replace: "255, 250, 250"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-snow"
+  - trigger: "##families-snow"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::honeydew"
+  - trigger: "##honeydew"
     force_clipboard: true
     replace: "#F0FFF0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-honeydew"
+  - trigger: "##rgb-honeydew"
     force_clipboard: true
     replace: "240, 255, 240"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-honeydew"
+  - trigger: "##families-honeydew"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mintcream"
+  - trigger: "##mintcream"
     force_clipboard: true
     replace: "#F5FFFA"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mintcream"
+  - trigger: "##rgb-mintcream"
     force_clipboard: true
     replace: "245, 255, 250"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mintcream"
+  - trigger: "##families-mintcream"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::azure"
+  - trigger: "##azure"
     force_clipboard: true
     replace: "#F0FFFF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-azure"
+  - trigger: "##rgb-azure"
     force_clipboard: true
     replace: "240, 255, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-azure"
+  - trigger: "##families-azure"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::aliceblue"
+  - trigger: "##aliceblue"
     force_clipboard: true
     replace: "#F0F8FF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-aliceblue"
+  - trigger: "##rgb-aliceblue"
     force_clipboard: true
     replace: "240, 248, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-aliceblue"
+  - trigger: "##families-aliceblue"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::ghostwhite"
+  - trigger: "##ghostwhite"
     force_clipboard: true
     replace: "#F8F8FF"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-ghostwhite"
+  - trigger: "##rgb-ghostwhite"
     force_clipboard: true
     replace: "248, 248, 255"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-ghostwhite"
+  - trigger: "##families-ghostwhite"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::whitesmoke"
+  - trigger: "##whitesmoke"
     force_clipboard: true
     replace: "#F5F5F5"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-whitesmoke"
+  - trigger: "##rgb-whitesmoke"
     force_clipboard: true
     replace: "245, 245, 245"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-whitesmoke"
+  - trigger: "##families-whitesmoke"
     force_clipboard: true
     replace: "white"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::seashell"
+  - trigger: "##seashell"
     force_clipboard: true
     replace: "#FFF5EE"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-seashell"
+  - trigger: "##rgb-seashell"
     force_clipboard: true
     replace: "255, 245, 238"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-seashell"
+  - trigger: "##families-seashell"
     force_clipboard: true
     replace: "white, pink"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::beige"
+  - trigger: "##beige"
     force_clipboard: true
     replace: "#F5F5DC"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-beige"
+  - trigger: "##rgb-beige"
     force_clipboard: true
     replace: "245, 245, 220"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-beige"
+  - trigger: "##families-beige"
     force_clipboard: true
     replace: "white, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::oldlace"
+  - trigger: "##oldlace"
     force_clipboard: true
     replace: "#FDF5E6"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-oldlace"
+  - trigger: "##rgb-oldlace"
     force_clipboard: true
     replace: "253, 245, 230"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-oldlace"
+  - trigger: "##families-oldlace"
     force_clipboard: true
     replace: "white, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::floralwhite"
+  - trigger: "##floralwhite"
     force_clipboard: true
     replace: "#FDF5E6"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-floralwhite"
+  - trigger: "##rgb-floralwhite"
     force_clipboard: true
     replace: "253, 245, 230"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-floralwhite"
+  - trigger: "##families-floralwhite"
     force_clipboard: true
     replace: "white, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::ivory"
+  - trigger: "##ivory"
     force_clipboard: true
     replace: "#FFFFF0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-ivory"
+  - trigger: "##rgb-ivory"
     force_clipboard: true
     replace: "255, 255, 240"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-ivory"
+  - trigger: "##families-ivory"
     force_clipboard: true
     replace: "white, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::antiquewhite"
+  - trigger: "##antiquewhite"
     force_clipboard: true
     replace: "#FAEBD7"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-antiquewhite"
+  - trigger: "##rgb-antiquewhite"
     force_clipboard: true
     replace: "250, 235, 215"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-antiquewhite"
+  - trigger: "##families-antiquewhite"
     force_clipboard: true
     replace: "white, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::linen"
+  - trigger: "##linen"
     force_clipboard: true
     replace: "#FAF0E6"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-linen"
+  - trigger: "##rgb-linen"
     force_clipboard: true
     replace: "250, 240, 230"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-linen"
+  - trigger: "##families-linen"
     force_clipboard: true
     replace: "white, tan"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lavenderblush"
+  - trigger: "##lavenderblush"
     force_clipboard: true
     replace: "#FFF0F5"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lavenderblush"
+  - trigger: "##rgb-lavenderblush"
     force_clipboard: true
     replace: "255, 240, 245"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lavenderblush"
+  - trigger: "##families-lavenderblush"
     force_clipboard: true
     replace: "white, lavender, pink"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::mistyrose"
+  - trigger: "##mistyrose"
     force_clipboard: true
     replace: "#FFE4E1"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-mistyrose"
+  - trigger: "##rgb-mistyrose"
     force_clipboard: true
     replace: "255, 228, 225"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-mistyrose"
+  - trigger: "##families-mistyrose"
     force_clipboard: true
     replace: "white, pink"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::gainsboro"
+  - trigger: "##gainsboro"
     force_clipboard: true
     replace: "#DCDCDC"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-gainsboro"
+  - trigger: "##rgb-gainsboro"
     force_clipboard: true
     replace: "220, 220, 220"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-gainsboro"
+  - trigger: "##families-gainsboro"
     force_clipboard: true
     replace: "gray"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightgray"
+  - trigger: "##lightgray"
     force_clipboard: true
     replace: "#D3D3D3"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightgray"
+  - trigger: "##rgb-lightgray"
     force_clipboard: true
     replace: "211, 211, 211"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightgray"
+  - trigger: "##families-lightgray"
     force_clipboard: true
     replace: "gray, light"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::silver"
+  - trigger: "##silver"
     force_clipboard: true
     replace: "#C0C0C0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-silver"
+  - trigger: "##rgb-silver"
     force_clipboard: true
     replace: "192, 192, 192"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-silver"
+  - trigger: "##families-silver"
     force_clipboard: true
     replace: "gray"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkgray"
+  - trigger: "##darkgray"
     force_clipboard: true
     replace: "#A9A9A9"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkgray"
+  - trigger: "##rgb-darkgray"
     force_clipboard: true
     replace: "169, 169, 169"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkgray"
+  - trigger: "##families-darkgray"
     force_clipboard: true
     replace: "gray, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::gray"
+  - trigger: "##gray"
     force_clipboard: true
     replace: "#808080"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-gray"
+  - trigger: "##rgb-gray"
     force_clipboard: true
     replace: "128, 128, 128"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-gray"
+  - trigger: "##families-gray"
     force_clipboard: true
     replace: "gray"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::dimgray"
+  - trigger: "##dimgray"
     force_clipboard: true
     replace: "#696969"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-dimgray"
+  - trigger: "##rgb-dimgray"
     force_clipboard: true
     replace: "105, 105, 105"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-dimgray"
+  - trigger: "##families-dimgray"
     force_clipboard: true
     replace: "gray"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::lightslategray"
+  - trigger: "##lightslategray"
     force_clipboard: true
     replace: "#778899"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-lightslategray"
+  - trigger: "##rgb-lightslategray"
     force_clipboard: true
     replace: "119, 136, 153"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-lightslategray"
+  - trigger: "##families-lightslategray"
     force_clipboard: true
     replace: "gray, light, slate"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::slategray"
+  - trigger: "##slategray"
     force_clipboard: true
     replace: "#708090"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-slategray"
+  - trigger: "##rgb-slategray"
     force_clipboard: true
     replace: "112, 128, 144"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-slategray"
+  - trigger: "##families-slategray"
     force_clipboard: true
     replace: "gray, slate"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::darkslategray"
+  - trigger: "##darkslategray"
     force_clipboard: true
     replace: "#2F4F4F"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-darkslategray"
+  - trigger: "##rgb-darkslategray"
     force_clipboard: true
     replace: "47, 79, 79"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-darkslategray"
+  - trigger: "##families-darkslategray"
     force_clipboard: true
     replace: "gray, slate, dark"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::black"
+  - trigger: "##black"
     force_clipboard: true
     replace: "#000000"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::rgb-black"
+  - trigger: "##rgb-black"
     force_clipboard: true
     replace: "0, 0, 0"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"
-  - trigger: "::families-black"
+  - trigger: "##families-black"
     force_clipboard: true
     replace: "black"
-    vars:
-      - name: "clipboard"
-        type: "clipboard"

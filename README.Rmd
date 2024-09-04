@@ -36,7 +36,7 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-`html-colors` is an [Espanso](https://espanso.org) package that allows you to insert HTML color codes into your text seamlessly. By using this package, shortcuts like `::red` are automatically replaced with their corresponding hex color codes (e.g., `#FF0000`). You can also retrieve RGB color codes and the color family. It is designed to work in conjunction with the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
+`html-colors` is an [Espanso](https://espanso.org) package that allows you to insert HTML color codes into your text seamlessly. By using this package, shortcuts like `##red` are automatically replaced with their corresponding hex color codes (e.g., `#FF0000`). You can also retrieve RGB color codes and the color family. It is designed to work in conjunction with the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
 
 This package is inspired by [Jenny Knuth's gist](https://gist.github.com/jennyknuth/e2d9ee930303d5a5fe8862c6e31819c5). A big thank you to Jenny!
 
@@ -103,6 +103,10 @@ data <-
 ```{r, echo=FALSE, results='asis'}
 simplermarkdown::md_table(data)
 ```
+
+## Prefix
+
+The `##` prefix was used to avoid conflicts with social media hashtags and the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
 
 ## Contributing
 
