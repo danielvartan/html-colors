@@ -37,7 +37,7 @@ espanso install html-colors
 And the development version from [GitHub](https://github.com/) with:
 
 ``` sh
-espanso install html-colors --git https://github.com/danielvartan/html-colors/scr --external
+espanso install html-colors --git https://github.com/danielvartan/html-colors/ --external
 ```
 
 ## Usage
