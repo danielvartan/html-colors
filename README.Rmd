@@ -80,7 +80,7 @@ data <-
     color = paste0(
         "![#",
         hex_code,
-        "](png/",
+        "](images/",
         hex_code,
         ".png)"
     ),
