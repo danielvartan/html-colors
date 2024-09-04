@@ -13,24 +13,38 @@ This document contains some code to facilitate the copying of files from the roo
 ```{r}
 #| eval: false
 
+library(checkmate, quietly = TRUE)
 library(here, quietly = TRUE)
+library(readr, quietly = TRUE)
+library(stringr, quietly = TRUE)
 ```
 
 ## Copying files
 
 ```{r}
-files_to_copy <- c(
-  here::here("LICENSE.md"),
-  here::here("README.md")
-)
-
+files_to_copy <- 
+  c(
+    list.files(here::here("png"), full.names = TRUE),
+    here::here("README.md")
+  ) |>
+  stringr::str_replace(paste0(here::here(), "/"), "")
 ```
 
 ```{r}
 for (i in files_to_copy) {
+  pattern <- ".*(?=/)"
+  
+  if (stringr::str_detect(i, pattern)) {
+    dir <- stringr::str_extract(i, ".*(?=/)")
+    if (!dir.exists(here::here("src", dir))) dir.create(here::here("src", dir))
+    to <- here::here("src", dir, basename(i))
+  } else {
+    to <- here::here("src", basename(i))
+  }
+  
   file.copy(
-    from = i,
-    to = here::here("src", basename(i)),
+    from = here::here(i), 
+    to = to, 
     overwrite = TRUE
   )
 }
@@ -42,8 +56,8 @@ fix_readme_paths <- function(file) {
   checkmate::assert_file_exists(file)
   
   data <- 
-    readr::read_lines(file) |>
-    stringr::str_replace_all("png/", "../png/")
+    file |>
+    readr::read_lines(skip = 3)
   
   readr::write_lines(
     x = data,
@@ -55,4 +69,3 @@ fix_readme_paths <- function(file) {
 ```{r}
 fix_readme_paths(here::here("src", "README.md"))
 ```
-

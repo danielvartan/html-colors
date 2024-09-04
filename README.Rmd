@@ -83,7 +83,9 @@ data <-
         "](png/",
         hex_code,
         ".png)"
-    )
+    ),
+    trigger = paste0("`", trigger, "`"),
+    replace = paste0("`", replace, "`")
   )
 ```
 
@@ -92,8 +94,8 @@ data <-
   data |>
   dplyr::select(trigger, replace, color) |>
   dplyr::rename(
-    Shortcut = trigger,
-    Character = replace,
+    Trigger = trigger,
+    Result = replace,
     Color = color
   )
 ```
@@ -101,6 +103,10 @@ data <-
 ```{r, echo=FALSE, results='asis'}
 simplermarkdown::md_table(data)
 ```
+
+## Contributing
+
+If you feel like there's any important tag/snippet missing, feel free to create a Pull Request or open an [Issue](https://github.com/danielvartan/html-colors/issues/new).
 
 ## License
 
