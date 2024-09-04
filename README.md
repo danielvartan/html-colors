@@ -40,6 +40,12 @@ And the development version from [GitHub](https://github.com/) with:
 espanso install html-colors --git https://github.com/danielvartan/html-colors/ --external
 ```
 
+To update the package in you system, run:
+
+``` sh
+espanso package update html-colors
+```
+
 ## Usage
 
 This package replaces the listed shortcuts with the corresponding

@@ -62,7 +62,6 @@ data <- data |>
   dplyr::as_tibble() |>
   dplyr::mutate(
     name = stringr::str_to_lower(name),
-    name = paste0(sep, name),
     rgb = stringr::str_replace_all(rgb, "RGB\\(", ""),
     rgb = stringr::str_replace_all(rgb, "\\)", ""),
     families = purrr::map_chr(families, ~paste0(.x, collapse = ", "))
@@ -76,6 +75,8 @@ file <- here::here("src", "package.yml")
 ```
 
 ```{r}
+#| output: false
+
 file.create(file)
 ```
 
@@ -94,11 +95,11 @@ for (i in seq_len(nrow(data))) {
   readr::write_lines(
     x = c(
       paste0('  - replace: "', data$hex[i], '"'),
-      paste0('    trigger: "', data$name[i], '"'),
+      paste0('    trigger: "', sep, data$name[i], '"'),
       paste0('  - replace: "', data$rgb[i], '"'),
-      paste0('    trigger: "', data$name[i], "-rgb", '"'),
+      paste0('    trigger: "', sep, "rgb-", data$name[i], '"'),
       paste0('  - replace: "', data$families [i], '"'),
-      paste0('    trigger: "', data$name[i], "-families", '"')
+      paste0('    trigger: "', sep, "families-", data$name[i], '"')
     ),
     file = file,
     sep = "\n",
