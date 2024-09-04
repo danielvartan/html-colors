@@ -1,0 +1,70 @@
+---
+title: "Creating the color images"
+author: "Daniel Vartanian"
+format: html
+---
+
+## Overview
+
+This document contains creates the image files in the `png` directory.
+
+## Setup
+
+```{r, eval=FALSE}
+library(dplyr, quietly = TRUE)
+library(here, quietly = TRUE)
+library(magick, quietly = TRUE)
+library(magrittr, quietly = TRUE)
+library(purrr, quietly = TRUE)
+library(readr, quietly = TRUE))
+library(yaml, quietly = TRUE)
+```
+
+```{r, include=FALSE}
+library(magrittr)
+```
+
+## Creating images
+
+```{r, echo=FALSE}
+match_file <- here::here("src", "package.yml")
+```
+
+```{r}
+checkmate::assert_file_exists(match_file)
+```
+
+```{r, echo=FALSE}
+data <- 
+  match_file |>
+  readr::read_lines(skip = 1) %>%
+  yaml::read_yaml(text = .) |>
+  purrr::map_dfr(tibble::as_tibble) |>
+  dplyr::filter(stringr::str_detect(trigger, "rgb-|families-", negate = TRUE)) |>
+  dplyr::mutate(
+    replace = stringr::str_replace(replace, "^#", ""),
+  )
+```
+
+```{r}
+colors <- data |> dplyr::pull(replace)
+```
+
+```{r}
+if (!checkmate::test_directory_exists(here::here("png"))) {
+  dir.create(here::here("png"))
+}
+```
+
+```{r}
+for (i in colors) {
+  magick::image_blank(
+    width = 75, 
+    height = 25, 
+    color = paste0("#", i)
+  ) |>
+    magick::image_write(
+      path = here::here("png", paste0(i, ".png"))
+    )
+}
+```

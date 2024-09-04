@@ -5,13 +5,13 @@ output: github_document
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, eval=FALSE, include=FALSE}
-library(dplyr)
-library(gt, quietly = TRUE)
+library(dplyr, quietly = TRUE)
 library(here, quietly = TRUE)
 library(knitr, quietly = TRUE)
-library(magrittr)
+library(magrittr, quietly = TRUE)
 library(purrr, quietly = TRUE)
-library(readr, quietly = TRUE))
+library(readr, quietly = TRUE)
+library(simplermarkdown, quietly = TRUE)
 library(yaml, quietly = TRUE)
 ```
 
@@ -36,11 +36,9 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-`html-colors` is a package that allows you to insert HTML color codes into your text using [Espanso](https://espanso.org). It replaces shortcuts like `::red` with their corresponding hex color codes `#FF0000`. You can use it with the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
+`html-colors` is a package that allows you to insert HTML color codes into your text using [Espanso](https://espanso.org). It replaces shortcuts like `::red` with their corresponding hex color codes (`#FF0000`). You can use it with the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
 
-Click [here](https://htmlcolorcodes.com/) to visualize all the colors.
-
-The package is based on [this gist](https://gist.github.com/jennyknuth/e2d9ee930303d5a5fe8862c6e31819c5) by [Jenny Knuth](https://gist.github.com/jennyknuth). Thank you, Jenny! :)
+This package is based on [this gist](https://gist.github.com/jennyknuth/e2d9ee930303d5a5fe8862c6e31819c5) by [Jenny Knuth](https://gist.github.com/jennyknuth). Thank you, Jenny! :)
 
 ## Installation
 
@@ -69,7 +67,7 @@ data <-
   match_file |>
   readr::read_lines(skip = 1) %>%
   yaml::read_yaml(text = .) |>
-  purrr::map_dfr(~tibble::as_tibble(.x)) |>
+  purrr::map_dfr(tibble::as_tibble) |>
   dplyr::mutate(
     hex_code = dplyr::case_when(
       stringr::str_detect(trigger, "rgb-") ~ dplyr::lag(replace, n = 1),
@@ -78,26 +76,21 @@ data <-
     )
   ) |>
   dplyr::mutate(
-    # hex_code = dplyr::case_when(
-    #   stringr::str_detect(trigger, "rgb-") ~ "",
-    #   stringr::str_detect(trigger, "families-") ~ "",
-    #   TRUE ~ stringr::str_replace(replace, "#", "")
-    # ),
-    color = dplyr::if_else(
-      condition = is.na(hex_code),
-      true = hex_code,
-      false = paste0(
+    hex_code = stringr::str_replace(hex_code, "#", ""),
+    color = paste0(
         "![#",
         hex_code,
-        "](https://placehold.co/15x15/",
-        hex_code,
-        "/",
+        "](png/",
         hex_code,
         ".png)"
-      )
     )
-  ) |>
-  # dplyr::select(trigger, replace, color) |>
+  )
+```
+
+```{r, echo=FALSE}
+data <- 
+  data |>
+  dplyr::select(trigger, replace, color) |>
   dplyr::rename(
     Shortcut = trigger,
     Character = replace,
@@ -105,29 +98,8 @@ data <-
   )
 ```
 
-```{r, echo=FALSE}
-table <- 
-  data |>
-  dplyr::select(Shortcut, Character, Color) |>
-  dplyr::mutate(Color = "")
-
-tb <- table |> gt::gt()
-
-for (i in seq_len(nrow(table))) {
-  tb <- 
-    tb |>
-    gt::tab_style(
-      style = gt::cell_fill(color = data$hex_code[i]),
-      locations = gt::cells_body(
-        columns = Color,
-        rows = i
-      )
-    )
-}
-```
-
-```{r, echo=FALSE}
-tb
+```{r, echo=FALSE, results='asis'}
+simplermarkdown::md_table(data)
 ```
 
 ## License
