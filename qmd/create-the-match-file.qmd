@@ -94,12 +94,24 @@ readr::write_lines(
 for (i in seq_len(nrow(data))) {
   readr::write_lines(
     x = c(
-      paste0('  - replace: "', data$hex[i], '"'),
-      paste0('    trigger: "', sep, data$name[i], '"'),
-      paste0('  - replace: "', data$rgb[i], '"'),
-      paste0('    trigger: "', sep, "rgb-", data$name[i], '"'),
-      paste0('  - replace: "', data$families [i], '"'),
-      paste0('    trigger: "', sep, "families-", data$name[i], '"')
+      paste0('  - trigger: "', sep, data$name[i], '"'),
+      '    force_clipboard: true',
+      paste0('    replace: "', data$hex[i], '"'),
+      '    vars:',
+      '      - name: "clipboard"',
+      '        type: "clipboard"',
+      paste0('  - trigger: "', sep, "rgb-", data$name[i], '"'),
+      '    force_clipboard: true',
+      paste0('    replace: "', data$rgb[i], '"'),
+      '    vars:',
+      '      - name: "clipboard"',
+      '        type: "clipboard"',
+      paste0('  - trigger: "', sep, "families-", data$name[i], '"'),
+      '    force_clipboard: true',
+      paste0('    replace: "', data$families [i], '"'),
+      '    vars:',
+      '      - name: "clipboard"',
+      '        type: "clipboard"'
     ),
     file = file,
     sep = "\n",
