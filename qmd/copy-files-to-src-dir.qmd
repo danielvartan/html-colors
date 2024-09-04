@@ -24,7 +24,7 @@ library(stringr, quietly = TRUE)
 ```{r}
 files_to_copy <- 
   c(
-    list.files(here::here("png"), full.names = TRUE),
+    # list.files(here::here("png"), full.names = TRUE),
     here::here("README.md")
   ) |>
   stringr::str_replace(paste0(here::here(), "/"), "")
@@ -57,7 +57,14 @@ fix_readme_paths <- function(file) {
   
   data <- 
     file |>
-    readr::read_lines(skip = 3)
+    readr::read_lines(skip = 3) |>
+    stringr::str_replace_all(
+      pattern = "(?<=\\()images/",
+      replacement = paste0(
+        "https://github.com/danielvartan/html-colors/blob/", 
+        "debc28344cbbcee3177104b39220287af66c6f10/images/"
+      )
+    )
   
   readr::write_lines(
     x = data,
