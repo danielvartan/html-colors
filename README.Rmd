@@ -36,19 +36,19 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-`html-colors` is a package that allows you to insert HTML color codes into your text using [Espanso](https://espanso.org). It replaces shortcuts like `::red` with their corresponding hex color codes (`#FF0000`). You can use it with the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
+`html-colors` is an [Espanso](https://espanso.org) package that allows you to insert HTML color codes into your text seamlessly. By using this package, shortcuts like `::red` are automatically replaced with their corresponding hex color codes (e.g., `#FF0000`). You can also retrieve RGB color codes and the color family. It is designed to work in conjunction with the [`html-utils-package`](https://hub.espanso.org/html-utils-package).
 
-This package is based on [this gist](https://gist.github.com/jennyknuth/e2d9ee930303d5a5fe8862c6e31819c5) by [Jenny Knuth](https://gist.github.com/jennyknuth). Thank you, Jenny! :)
+This package is inspired by [Jenny Knuth's gist](https://gist.github.com/jennyknuth/e2d9ee930303d5a5fe8862c6e31819c5). A big thank you to Jenny!
 
 ## Installation
 
-You can install the released version of `html-colors` from [Espanso Hub](https://hub.espanso.org/) with:
+To install the latest released version of `html-colors`, use [Espanso Hub](https://hub.espanso.org/):
 
 ``` sh
 espanso install html-colors
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+To install the development version directly from GitHub, use:
 
 ``` sh
 espanso install html-colors --git https://github.com/danielvartan/html-colors/ --external
@@ -56,7 +56,7 @@ espanso install html-colors --git https://github.com/danielvartan/html-colors/ -
 
 ## Usage
 
-This package replaces the listed shortcuts with the corresponding characters while typing.
+Once installed, `html-colors` will replace the specified shortcuts with their corresponding character as you type.
 
 ```{r, echo=FALSE}
 match_file <- here::here("src", "package.yml")
