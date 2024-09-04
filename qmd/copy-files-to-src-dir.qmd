@@ -35,3 +35,24 @@ for (i in files_to_copy) {
   )
 }
 ```
+
+```{r}
+fix_readme_paths <- function(file) {
+  checkmate::assert_string(file)
+  checkmate::assert_file_exists(file)
+  
+  data <- 
+    readr::read_lines(file) |>
+    stringr::str_replace_all("png/", "../png/")
+  
+  readr::write_lines(
+    x = data,
+    file = file
+  )
+}
+```
+
+```{r}
+fix_readme_paths(here::here("src", "README.md"))
+```
+
