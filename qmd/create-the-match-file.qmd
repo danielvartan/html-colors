@@ -1,0 +1,129 @@
+---
+title: "Creating the match file"
+author: "Daniel Vartanian"
+format: html
+---
+
+## Overview
+
+This document reproduce the [Espanso](https://espanso.org) match file used in this package. The file is located in `scr/package.yml`.
+
+## Setup
+
+```{r}
+#| eval: false
+
+library(dplyr, quietly = TRUE)
+library(here, quietly = TRUE)
+library(jsonlite, quietly = TRUE)
+library(purrr, quietly = TRUE)
+library(readr, quietly = TRUE)
+library(stringr, quietly = TRUE)
+```
+
+```{r}
+## The keyword separator (e.g., `::` + `red`)
+
+sep <- "::"
+```
+
+## Importing data
+
+```{r}
+url <- paste0(
+  "https://gist.githubusercontent.com/jennyknuth/",
+  "e2d9ee930303d5a5fe8862c6e31819c5/raw/",
+  "e4ec571a9b49ddc5c1789a4e7f3c67ec5271398e/colors.json"
+)
+```
+
+```{r}
+data <- jsonlite::read_json(url, simplifyVector = TRUE)
+```
+
+### Alternative
+
+```{r}
+#| eval: false
+
+raw_data <- here:here("raw-data", "colors.json")
+```
+
+```{r}
+#| eval: false
+
+data <- jsonlite::read_json(raw_data, simplifyVector = TRUE)
+```
+
+## Data munging
+
+```{r}
+data <- data |>
+  dplyr::as_tibble() |>
+  dplyr::mutate(
+    name = stringr::str_to_lower(name),
+    name = paste0(sep, name),
+    rgb = stringr::str_replace_all(rgb, "RGB\\(", ""),
+    rgb = stringr::str_replace_all(rgb, "\\)", ""),
+    families = purrr::map_chr(families, ~paste0(.x, collapse = ", "))
+  )
+```
+
+## Creating the match file
+
+```{r}
+file <- here::here("src", "package.yml")
+```
+
+```{r}
+file.create(file)
+```
+
+```{r}
+readr::write_lines(
+  x = "matches:",
+  file = file,
+  sep = "\n",
+  na = "NA",
+  append = FALSE
+)
+```
+
+```{r}
+for (i in seq_len(nrow(data))) {
+  readr::write_lines(
+    x = c(
+      paste0('  - replace: "', data$hex[i], '"'),
+      paste0('    trigger: "', data$name[i], '"'),
+      paste0('  - replace: "', data$rgb[i], '"'),
+      paste0('    trigger: "', data$name[i], "-rgb", '"'),
+      paste0('  - replace: "', data$families [i], '"'),
+      paste0('    trigger: "', data$name[i], "-families", '"')
+    ),
+    file = file,
+    sep = "\n",
+    na = "NA",
+    append = TRUE
+  )
+}
+```
+
+### Helpers
+
+```{r}
+#| eval: false
+
+file.edit(file)
+```
+
+```{r}
+#| eval: false
+
+readr::read_lines(file)
+```
+
+```{r}
+#| eval: false
+
+readr::write_file("", file)
+```

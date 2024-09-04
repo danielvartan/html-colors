@@ -1,0 +1,37 @@
+---
+title: "Copying files to the `src` directory"
+author: "Daniel Vartanian"
+format: html
+---
+
+## Overview
+
+This document contains some code to facilitate the copying of files from the root directory to the `src` directory.
+
+## Setup
+
+```{r}
+#| eval: false
+
+library(here, quietly = TRUE)
+```
+
+## Copying files
+
+```{r}
+files_to_copy <- c(
+  here::here("LICENSE.md"),
+  here::here("README.md")
+)
+
+```
+
+```{r}
+for (i in files_to_copy) {
+  file.copy(
+    from = i,
+    to = here::here("src", basename(i)),
+    overwrite = TRUE
+  )
+}
+```
