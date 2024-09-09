@@ -24,7 +24,11 @@ library(yaml, quietly = TRUE)
 library(magrittr)
 ```
 
-## Creating images
+## Create images
+
+```{r}
+image_dir <- here::here("images")
+```
 
 ```{r, echo=FALSE}
 match_file <- here::here("src", "package.yml")
@@ -51,8 +55,8 @@ colors <- data |> dplyr::pull(replace)
 ```
 
 ```{r}
-if (!checkmate::test_directory_exists(here::here("png"))) {
-  dir.create(here::here("png"))
+if (!checkmate::test_directory_exists(image_dir)) {
+  dir.create(image_dir)
 }
 ```
 
@@ -64,7 +68,7 @@ for (i in colors) {
     color = paste0("#", i)
   ) |>
     magick::image_write(
-      path = here::here("png", paste0(i, ".png"))
+      path = file.path(image_dir, paste0(i, ".png"))
     )
 }
 ```

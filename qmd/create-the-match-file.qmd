@@ -27,7 +27,7 @@ library(stringr, quietly = TRUE)
 sep <- "##"
 ```
 
-## Importing data
+## Import data
 
 ```{r}
 url <- paste0(
@@ -69,7 +69,7 @@ data <-
   )
 ```
 
-## Creating the match file
+## Create the match file
 
 ```{r}
 file <- here::here("src", "package.yml")

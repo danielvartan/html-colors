@@ -1,10 +1,9 @@
----
-output: github_document
----
+# html-colors
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+```{r}
+#| eval: false
+#| include: false
 
-```{r, eval=FALSE, include=FALSE}
 library(dplyr, quietly = TRUE)
 library(here, quietly = TRUE)
 library(knitr, quietly = TRUE)
@@ -15,23 +14,17 @@ library(simplermarkdown, quietly = TRUE)
 library(yaml, quietly = TRUE)
 ```
 
-```{r, include=FALSE}
+```{r}
+#| include: false
+
 library(magrittr)
 ```
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  out.width = "100%"
-)
-```
-
-# html-colors
-
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Espanso Hub](https://img.shields.io/badge/Espanso%20Hub-0.1.0-%2300A595.svg)](https://hub.espanso.org/html-colors)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 <!-- badges: end -->
 
 ## Overview
@@ -58,11 +51,15 @@ espanso install html-colors --git https://github.com/danielvartan/html-colors/ -
 
 Once installed, `html-colors` will replace the specified shortcuts with their corresponding character as you type.
 
-```{r, echo=FALSE}
+```{r}
+#| echo: false
+
 match_file <- here::here("src", "package.yml")
 ```
 
-```{r, echo=FALSE}
+```{r}
+#| echo: false
+
 data <- 
   match_file |>
   readr::read_lines(skip = 1) %>%
@@ -89,7 +86,9 @@ data <-
   )
 ```
 
-```{r, echo=FALSE}
+```{r}
+#| echo: false
+
 data <- 
   data |>
   dplyr::select(trigger, replace, color) |>
@@ -100,7 +99,10 @@ data <-
   )
 ```
 
-```{r, echo=FALSE, results='asis'}
+```{r}
+#| echo: false
+#| output: "asis"
+
 simplermarkdown::md_table(data)
 ```
 
