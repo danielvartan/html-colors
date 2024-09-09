@@ -6,7 +6,7 @@ format: html
 
 ## Overview
 
-This document contains creates the image files in the `png` directory.
+This document creates the image files in the `images` directory.
 
 ## Setup
 
